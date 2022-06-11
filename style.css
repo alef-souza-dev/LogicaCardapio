@@ -1,0 +1,109 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.table-responsive{
+  width: 100% !important;
+}
+
+.table {
+    border: 1px solid red;
+    width: 50% !important; /*Importante manter o !important rs */
+    margin: auto;
+}
+
+.table-status {
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+    color:#ffffff;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.linkendin-logo {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.alef-logo {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  right: 1770px;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+table {
+  padding: 5px;
+}
+
+table th {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid red;
+}
+
+table td {
+  padding: 0 10px ;
+  text-align: left;
+}
+
+table tr {
+  border: 1px solid red;
+}

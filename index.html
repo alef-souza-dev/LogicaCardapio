@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Teste NC projetos
+  </title>
+  <link href="style.css" rel="stylesheet">
+ 
+</head>
+
+<body>
+  <script type="text/javascript" src="script.js"></script>
+  <div class="container">
+    <h1 class="page-title">
+      Teste NC Projetos
+    </h1>
+    <img src="https://st2.depositphotos.com/1496387/10670/v/950/depositphotos_106706024-stock-illustration-restaurant-cafe-vector-logo-menu.jpg" class="page-logo" alt="">
+    <p class="page-subtitle">
+      Cadápio:
+    </p>
+    <!-- Tabela do Cardápio -->
+    <div class="table-responsive">
+      <table class="table table-status">
+        <tr class="status">
+          <th class="cor">Tipo de Prato</th>
+          <th class="cor">Opções na Manhã</th>
+          <th class="cor">Opções à Noite</th>
+        </tr>
+        <tr>
+          <td>1 - Entrada</td>
+          <td>Ovos</td>
+          <td>Bife</td>
+        </tr>
+        <tr>
+          <td>2 - Prato principal</td>
+          <td>Torradas</td>
+          <td>Batatas</td>
+        </tr>
+        <tr>
+          <td>3 - Bebidas</td>
+          <td>Café</td>
+          <td>Vinho</td>
+        </tr>
+        <tr>
+          <td>4 - Sobremesa</td>
+          <td>Sem Opções</td>
+          <td>Bolo</td>
+        </tr>
+      </table>
+    </div>
+    <p class="page-subtitle">
+      Selecione o periodo desejado:
+    </p>
+    <div class="form-wrapper">
+      <!-- Combobox de Opções de periodo -->
+      <select id="cdPeriodo">
+        <option>Manhã</option>
+        <option>Noite</option>
+      </select>
+
+      <p class="page-subtitle">
+        Digite a quantidade de cada item:
+      </p>
+      <table class="table table-status">
+        <tr class="status">
+          <th>Entrada</th>
+          <th>Prato Principal</th>
+          <th>Bebidas</th>
+          <th>Sobremesa</th>
+        </tr>
+        <tr>
+          <td><input type="text" id="entrada" name="entrada" placeholder="Digite aqui"></td>
+          <td><input type="text" id="pratoPrincipal" name="pratoPrincipal" placeholder="Digite aqui"></td>
+          <td><input type="text" id="bebidas" name="bebidas" placeholder="Digite aqui"></td>
+          <td><input type="text" id="sobremesa" name="sobremesa" placeholder="Digite aqui"></td>
+        </tr>
+      </table>
+
+      <button onClick="adicionarPedido()">Adicionar Pedido</button>
+    </div>
+  </div>
+  <div id="listaPedidos"></div>
+  <a href="https://www.linkedin.com/in/alef-augusto-de-souza-50876450" target="_blank">
+    <img src="https://marcas-logos.net/wp-content/uploads/2020/01/LinkedIn-símbolo.jpg" alt="" class="linkendin-logo">
+  </a>
+  <div id="listaPedidos"></div>
+  <a href="https://www.linkedin.com/in/alef-augusto-de-souza-50876450" target="_blank">
+    <img src="https://media-exp1.licdn.com/dms/image/C5103AQG0y6XlfNXi9A/profile-displayphoto-shrink_200_200/0/1516456139573?e=1660176000&v=beta&t=bJ_bh8_4toJWlw1NkTjSWwZzELyJ7XP5Kxqn0jm5110" alt="" class="alef-logo">
+  </a>
+</body>
+
+</html>
